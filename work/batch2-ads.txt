@@ -1,0 +1,9 @@
+# Skyworth SWTV-20NA (device SW4H, MediaTek), Android TV 11, build RTM5.220609.106
+# Stock launcher: com.google.android.tvlauncher. Live TV: com.smartdevice.livetv / com.mediatek.tvinput.
+# Disabled with pm disable-user --user 0, never uninstalled. Undo: work/restore-all.sh
+# Batch 2: ads and sponsored content
+com.smartdevice.recommendation              # "Daily Play" sponsored app + row
+com.smartdevice.leanbacklauncher.customizer # partner rows and the Shop tab on the stock launcher
+com.google.android.leanbacklauncher.partnercustomizer  # "Featured by Google Play" partner row
+com.google.android.tvrecommendations        # stock launcher recommendation rows
+com.smartdevice.epopplayer                  # e-POP shop-floor promo player

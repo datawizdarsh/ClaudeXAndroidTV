@@ -1,0 +1,9 @@
+# Skyworth SWTV-20NA (device SW4H, MediaTek), Android TV 11, build RTM5.220609.106
+# Stock launcher: com.google.android.tvlauncher. Live TV: com.smartdevice.livetv / com.mediatek.tvinput.
+# Disabled with pm disable-user --user 0, never uninstalled. Undo: work/restore-all.sh
+# Batch 1: tracking and telemetry
+com.smartdevice.acr.recommendation          # ACR: recognises what is on screen for ad targeting
+com.google.android.feedback                 # Google feedback uploader
+com.google.android.partnersetup             # partner-app attribution
+android.autoinstalls.config.SW              # Play Auto Installs config that pushes preloads
+com.android.dynsystem                       # Dynamic System Updates
